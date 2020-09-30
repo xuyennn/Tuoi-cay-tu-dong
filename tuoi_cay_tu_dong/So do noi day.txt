@@ -1,0 +1,41 @@
+Nguon 9V dung cho Arduino
+Nguon 5V dung cho may bom
+
+Man hinh
+Man hinh	Arduino
+GND		GND
+VCC		5V
+SDA		SDA
+SCL		SCL
+Noi tai hang jump 4 chan SCL-SDA-5V-GND
+
+Module DS1307	Arduino
+GND		GND
+VCC		5V (o vi tri chan 5V-GND UART)
+SDA		A4
+SCL		A5
+
+Module cam bien do am dat so 1		Arduino
+VCC					5V (o vi tri hang chan nguon)
+GND					GND
+AO					A0
+
+Module cam bien do am dat so 2		Arduino
+VCC					5V (o vi tri hang chan nguon)
+GND					GND
+AO					A1
+
+Dong co servo		Arduino
+GND (day den)		GND
+VCC (day trang)		5V (o vi tri hang chan nguon)
+Signal (day xam)	9
+
+Module relay		Arduino
+VCC			5V (o vi tri hang chan nguon)
+IN1			8
+GND			GND
+
+May bom			Module relay		
+Day do			Chan so 2		
+Day xanh la		Chan so 3		
+					
